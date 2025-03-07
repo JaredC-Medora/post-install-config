@@ -64,6 +64,76 @@ This guide will walk you through setting up key features of your osTicket system
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+4. Configure Departments (Ticket Visibility)
+Departments control who can see and manage tickets. For example, SysAdmins may see system-related tickets, while Support handles customer service.
+   1. Go to Admin Panel > Agents > Departments.
+   2. Configure departments such as:
+      - SysAdmins
+      - Help Desk
+      - Networking
+
+
+
+
+5. Configure Teams (Group Agents from Different Departments)
+Teams allow agents from different departments to work together on tickets.
+   1. Go to Admin Panel > Agents > Teams.
+   2. Create teams by selecting agents from different departments, e.g.:
+      - Online Banking team with agents from Support and SysAdmins.
+
+
+
+
+6. Allow Ticket Creation by Registered Users Only
+To prevent unregistered users from creating tickets:
+   1. Go to Admin Panel > Settings > User Settings.
+   2. Uncheck the box for Unregistered users can create tickets.
+   3. Enable Registration Required: Only registered users can create tickets.
+
+
+
+
+7. Configure Agents (Add Workers)
+Add agents to your help desk system:
+   1. Go to Admin Panel > Agents > Add New.
+   2. Add agents such as:
+      - Jane (Department: SysAdmins)
+      - John (Department: Support)
+     
+
+
+
+8. Configure Users (Add Customers)
+Add users (customers) who will submit tickets:
+   1. Go to Agent Panel > Users > Add New.
+   2. Add users such as:
+      - Karen
+      - Ken
+
+
+
+
+9. Configure SLA (Service Level Agreements)
+SLAs define the response times for different severity levels:
+   1. Go to Admin Panel > Manage > SLA.
+   2. Configure SLAs such as:
+       - Sev-A (Grace Period: 1 hour, Schedule: 24/7)
+       - Sev-B (Grace Period: 4 hours, Schedule: 24/7)
+       - Sev-C (Grace Period: 8 hours, Business Hours)
+
+
+
+
+10. Configure Help Topics (For Ticket Submission)
+Help Topics guide users when creating a ticket:
+   1. Go to Admin Panel > Manage > Help Topics.
+      - Create help topics such as:
+      - Business Critical Outage
+      - Personal Computer Issues
+      - Equipment Request
+      - Password Reset
+      - Other
+
+
+<h2>By following these steps, you'll be able to configure your osTicket system to handle roles, departments, teams, agents, users, SLAs, and help topics efficiently.</h2>
+      
