@@ -49,8 +49,9 @@ This guide will walk you through setting up key features of your osTicket system
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Configure Roles (For Grouping Permissions)</h2>
-    - To manage permissions, configure roles for agents:
+3. Configure Roles (For Grouping Permissions)
+ 
+   To manage permissions, configure roles for agents:
       1. Go to Admin Panel > Agents > Roles.
       2. Create roles such as:
          - Supreme Admin for full access.
