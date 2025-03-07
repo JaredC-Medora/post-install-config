@@ -51,11 +51,11 @@ This guide will walk you through setting up key features of your osTicket system
 <p>
 3. Configure Roles (For Grouping Permissions)
  
-   To manage permissions, configure roles for agents:
-      1. Go to Admin Panel > Agents > Roles.
-      2. Create roles such as:
-         - Supreme Admin for full access.
-         - Other roles based on your requirements.
+   To manage permissions, configure roles for agents
+   1. Go to Admin Panel > Agents > Roles.
+   2. Create roles such as:
+       - Supreme Admin for full access.
+       - Other roles based on your requirements.
 
 </p>
 <br />
