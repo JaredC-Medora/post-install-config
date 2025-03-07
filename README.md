@@ -65,7 +65,8 @@ This guide will walk you through setting up key features of your osTicket system
 </p>
 <p>
 4. Configure Departments (Ticket Visibility)
-Departments control who can see and manage tickets. For example, SysAdmins may see system-related tickets, while Support handles customer service.
+
+   Departments control who can see and manage tickets. For example, SysAdmins may see system-related tickets, while Support handles customer service.
    1. Go to Admin Panel > Agents > Departments.
    2. Configure departments such as:
       - SysAdmins
